@@ -1,0 +1,16 @@
+global using System.Linq.Expressions;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Design;
+global using Microsoft.EntityFrameworkCore.Diagnostics;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.EntityFrameworkCore.Storage;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using App.Domain.Common;
+global using App.Domain.Entities;
+global using App.Application.Common.Models;
+global using App.Application.Interfaces.Persistence;
+global using App.Persistence.Context;
+global using App.Persistence.Interceptors;
+global using App.Persistence.Repositories;
+global using App.Persistence.UnitOfWork;

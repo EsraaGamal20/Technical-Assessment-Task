@@ -1,0 +1,12 @@
+global using System.Security.Claims;
+global using System.IdentityModel.Tokens.Jwt;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.AspNetCore.Mvc;
+global using App.Application.Common.Exceptions;
+global using App.Application.Common.Models;
+global using App.Application.Features.Auth.Dtos;
+global using App.Application.Features.Auth.Services;
+global using App.Application.Interfaces.Services;
+global using App.Infrastructure.Authentication;
+global using App.Api.Services;

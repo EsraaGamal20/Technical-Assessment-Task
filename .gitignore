@@ -1,0 +1,99 @@
+## .NET / C# ─────────────────────────────────────────────────────────────────
+# Build output
+[Oo]bj/
+[Bb]in/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio
+.vs/
+**/.vs/
+[Gg]enerated [Ff]iles/
+*.pidb
+*.log
+*.svclog
+*.scc
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+TestResult.xml
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+*.testsettings
+*.vsp
+*.vspx
+*.sap
+*.cachefile
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.psess
+*.vsp
+*.vspx
+*.vs
+.builds
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+node_modules/
+jspm_packages/
+.npm/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Secrets & environment
+*.env
+.env
+.env.*
+!.env.example
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+
+# EF Core migrations temp
+*.mdf
+*.ldf
+*.ndf
+
+# Test coverage
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+
+# Docker
+docker-compose.override.yml
+
+# Publish / deploy
+publish/
+**/publish/
