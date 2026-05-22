@@ -51,6 +51,7 @@ public sealed class AuthService : IAuthService
         {
             var user = new ApplicationUser
             {
+                Id=Guid.NewGuid(),
                 FullName = request.FullName,
                 Email = request.Email,
                 PhoneNumber  = request.PhoneNumber,
